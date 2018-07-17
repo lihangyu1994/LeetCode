@@ -16,16 +16,16 @@ public class MaxSubArray {
 	}
 
 	public static int maxSubArray(int[] nums) {
-    	int maxNum = Integer.MIN_VALUE;
-        for(int i=0;i<nums.length;i++) {
-        	int max = 0;
-        	for(int y=i;y<nums.length;y++) {
-        		max = max+nums[y];
-        		if(max>maxNum) {
-        			maxNum = max;
-        		}
-        	}
-        }    	
-        return maxNum;
-    }
+		int maxNum = Integer.MIN_VALUE;
+		for (int i = 0; i < nums.length; i++) {
+			int max = 0;
+			for (int y = i; y < nums.length; y++) {
+				max = max + nums[y];
+				if (max > maxNum) {
+					maxNum = max;
+				}
+			}
+		}
+		return maxNum;
+	}
 }
