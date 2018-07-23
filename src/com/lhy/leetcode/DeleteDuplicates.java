@@ -16,7 +16,8 @@ import com.lhy.entity.ListNode;
 public class DeleteDuplicates {
 
 	public static void main(String[] args) {
-
+		
+		
 	}
 
 	public ListNode deleteDuplicates(ListNode head) {
