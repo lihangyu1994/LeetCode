@@ -1,7 +1,5 @@
 package com.lhy.leetcode;
 
-import javax.swing.tree.TreeNode;
-
 public class IsSameTree {
 
 /*		#100. 相同的树
