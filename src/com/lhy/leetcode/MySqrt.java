@@ -2,7 +2,7 @@ package com.lhy.leetcode;
 
 public class MySqrt {
 
-	/**69. x 的平方根
+	/*#69. x 的平方根
 	 * @param args
 	 * 实现 int sqrt(int x) 函数。
 	
